@@ -1,12 +1,23 @@
-# for eclipse
-/.settings/
-/.project
-
-# for idea
+# for backend
 *.iml
 /.idea
-*/target
-**/target
+**/target/
+.classpath
+.project
 .DS_Store
 .gitattributes
+
+# for fontend
+node_modules/
+dist/
+package-lock.json
+
+# for ai
+.opencode
+.omo
+.claude
+.specify
+specs
+
+# for maven
 */dependency-reduced-pom.xml
