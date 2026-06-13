@@ -111,7 +111,7 @@ docker run -p 8080:8080 -v /tmp:/data/applogs --name xxl-conf-admin  -d xuxueli/
 服务端配置说明：  
 ```
 # XXL-CONF 注册中心地址，多个逗号分隔
-xxl.conf.admin.address=http://localhost:8080/xxl-conf-admin
+xxl.conf.admin.address=http://localhost:8080
 # XXL-CONF 注册中心访问令牌
 xxl.conf.admin.accesstoken=defaultaccesstoken
 
@@ -142,7 +142,7 @@ xxl.rpc.provider.address=
 客户端配置说明：
 ```
 # XXL-CONF 注册中心地址，多个逗号分隔
-xxl.conf.admin.address=http://localhost:8080/xxl-conf-admin
+xxl.conf.admin.address=http://localhost:8080
 # XXL-CONF 注册中心访问令牌
 xxl.conf.admin.accesstoken=defaultaccesstoken
 
